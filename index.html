@@ -160,7 +160,10 @@
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Get in touch with me so i can turn your imagination into reality</p>
-									<form  name="contact" method="POST" data-netlify="true" onSubmit="submit">
+									<form  name="contact" method="POST" data-netlify="true" onSubmit="submit"
+									data-netlify-honeypot="bot-field"
+									>
+									<input type="hidden" name="bot-field">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
